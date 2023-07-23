@@ -1,11 +1,9 @@
-
-
 .contenedor-detalle {
     display: block;
     text-align: center;
-    width: 50%;
+    width: 70%;
     height: max-content;
-    margin: 3% 25%;
+    margin: 3% 15%;
     box-sizing: border-box;
     border: 2px solid rgb(12, 30, 58);
     border-radius: 10px;
