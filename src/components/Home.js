@@ -15,9 +15,9 @@ const Home = () => {
 
     <div>
       <img className="banner" src={Banner}/>
-      <div className='introduccion'>
+
         <h3 className='text-introduccion'>SOMOS EXPERTOS EN ASESORIA FINANCIERA</h3>
-      </div>
+        
       <div className='contenedor-aliados'>
         <h4 className='text-aliados'>NUESTROS ALIADOS FINANCIEROS</h4>
         <ul class="aliados">

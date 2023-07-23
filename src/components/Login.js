@@ -30,7 +30,7 @@ const Login = () => {
   }
   
   return (
-    <div className='contenedor'>
+    <div className='contenedor-login'>
       <img className='fondo'
       src={Imgfondo}
       />
