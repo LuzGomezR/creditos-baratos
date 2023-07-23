@@ -91,7 +91,7 @@ const Contacto = () => {
             <input type="submit" value="Enviar" className="enviar"/>
         </div>
 
-        <input type="hidden" name="_next" value="https://creditos-baratos-luzgomezr.vercel.app/"/>
+        <input type="hidden" name="_next" value="https://creditos-baratos.vercel.app//"/>
         <input type="hidden" name="_captcha" value="false"/>
 
       </form>
