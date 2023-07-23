@@ -1,0 +1,95 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+}
+
+.fondo{
+    width: 50%;
+}
+.card{
+    background-color: rgb(12, 71, 71);
+    width: 50%;
+    height: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+.logeo{
+    width: 150px;
+}
+
+.bienvenido {
+    color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;   
+}
+
+.formulario-login{
+    display: flex;
+    justify-content: center;
+}
+
+
+.label-login{
+    color: white;
+    font-size: 20px;
+}
+
+.input-login{
+    display: block;
+    padding: 7px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button-ingresar{
+    background-color: rgb(28, 146, 155);
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.button-ingresar:hover{
+    transition: 0.5s all;
+    cursor: pointer;
+    background: orangered;
+    transform: scale(1.20);
+}
+
+
+
+
+.olvido-contraseña{
+    color: white;
+    font-style: italic;
+}
+
+
+
+@media screen and  (max-width: 612px){
+
+    .fondo{
+        width: 0px
+    }
+
+    .card {
+        width: 100%;
+        padding: 50px 0;
+    }
+  }
+
+  @media screen and  (min-width: 1300px){
+
+    .card {
+        width: 100%;
+    }
+  }

@@ -1,0 +1,168 @@
+.contactenos {
+    width: 45%;
+    position: absolute;
+    right: 1.5%;
+    top: 35%;
+}
+
+.contactenos:hover{
+    transform: scale(1.1)
+}
+.asesor-call {
+    width: 40%;
+    position: absolute;
+    right: 4%;
+    top: 82%;
+}
+
+.asesor-call:hover{
+    transform: scale(1.1)
+}
+
+.titulo-contacto {
+    color: orangered;
+
+}
+.contenedor-contacto {
+    margin: 0 5% 3%;
+    text-align: center;
+}
+.v-line {
+    border-left: thick solid rgb(12, 30, 58);
+    height:135%;
+    left: 50%;
+    position: absolute;
+}
+
+.formulario-contacto {
+    margin: 40px 0;
+    text-align: right;
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 5%;
+    width: 90%;
+    font-size: 20px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 10px;
+}
+fieldset{
+    width: 40%;
+    border: 3px solid rgb(12, 30, 58);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+legend{
+    color: orangered;
+    font-size: 25px;
+    font-style: italic;
+}
+
+label{
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+option{
+    font-size: 20px;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 20px 0 0 ;
+}
+
+.enviar:hover{
+    background: orangered;
+    transform: scale(1.20)
+}
+
+
+@media screen and  (max-width: 1000px){
+
+    .contactenos{
+        display: none;
+    }
+    
+    .asesor-call {
+        display: none;
+    }
+
+    .v-line {
+        display: none;
+    }
+
+    fieldset {
+        width: 90%;
+        margin: 1%;
+    }
+
+}
+
+@media screen and  (min-width: 1001px){
+
+    .contactenos{
+        top: 250px;
+    }
+    
+    .asesor-call {
+        top: 500px;
+    }
+
+    .v-line {
+        height: 850px;
+    }
+}
+
+@media screen and  (min-width: 1200px){
+
+    .contactenos{
+        top: 200px
+    }
+    
+    .asesor-call {
+        top: 500px;
+    }
+
+    .v-line {
+        height: 850px;
+    }
+}
+
+@media screen and  (min-width: 1400px){
+
+    .contactenos{
+        top: 180px;
+        width: 42%;
+    }
+    
+    .asesor-call {
+        top: 520px;
+        width: 28%;
+        right: 8%;
+    }
+
+}
+

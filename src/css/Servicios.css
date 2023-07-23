@@ -1,0 +1,76 @@
+.contenedor-servicios {
+    margin: 0;
+    margin: 50px 0;
+}
+
+.tarjeta-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    
+}
+
+.servicio {
+    text-align: center;
+    width: 310px;
+    height: 330px;
+    vertical-align: top;
+    margin: 2% 1.5%;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(12, 30, 58);
+    border-top-width: 10px;
+    border-radius: 10px;
+    
+}
+
+.servicio:hover {
+    border-color: #C79C19;
+}
+
+.servicio:active{
+    border-color: #088c19;
+}
+
+.servicio:hover .nombre-servicio{
+    font-size: 30px;
+
+}
+
+.servicio a {
+    text-decoration: none;
+    color: black;
+}
+
+.nombre-servicio {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration-line: initial;
+}
+
+.imagen-servicio {
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (max-width:450px){
+
+    .contenedor-servicios {
+        margin: 50px 2%;
+    }
+  
+    .tarjeta-servicios {
+        display: block;
+    }
+    .servicio{
+        width: 97%;
+    }
+
+}
+
+
+
+
+

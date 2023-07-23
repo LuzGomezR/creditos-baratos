@@ -1,0 +1,166 @@
+.contenedor {
+    display: block;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    opacity: 70%;
+}
+.introduccion{
+    position: absolute;
+    right: 0;
+
+}
+.text-introduccion{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.contenedor-aliados{
+    background-color: rgb(12, 71, 71);
+    padding: 1%;
+    text-align: center;
+}
+
+.aliados{
+    padding: 0%;
+}
+
+.text-aliados{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.imagenes-aliados {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid rgb(163, 159, 159);
+}
+
+.aliados li :hover{
+    transform: scale(1.20);
+    
+}
+
+@media screen and (max-width:284px){
+
+    .introduccion {
+        width: 170px;
+        top: 32%;
+        right: 3%;
+    }
+    
+    .text-introduccion {
+        font-size: 20px;
+    }
+
+    .text-aliados{
+        font-size: 30px;
+    }
+
+    .imagenes-aliados {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:285px){
+
+    .introduccion {
+        width: 170px;
+        top: 26%;
+        right: 3%;
+    }
+    
+    .text-introduccion {
+        font-size: 20px;
+    }
+
+    .text-aliados{
+        font-size: 30px;
+    }
+
+    .imagenes-aliados {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:400px){
+    
+    .text-introduccion {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:600px){
+
+    .introduccion {
+        width: 290px;
+        top: 19%;
+        right: 3%;
+    }
+
+    .text-introduccion {
+        font-size: 45px;
+    }
+
+    .text-aliados{
+        font-size: 40px;
+    }
+
+    .imagenes-aliados {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width:800px){
+
+    .introduccion {
+        width: 400px;
+    }
+
+    .text-introduccion {
+        font-size: 55px;
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .introduccion {
+        width: 450px;
+    }
+
+    .text-introduccion {
+        font-size: 70px;
+    }
+
+    
+    .text-aliados{
+        font-size: 50px;
+    }
+
+    .imagenes-aliados {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    .introduccion {
+        width: 50%;
+        top: 12%;
+    }
+
+    .text-introduccion {
+        font-size: 85px;
+    }
+}
+
