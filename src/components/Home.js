@@ -14,12 +14,13 @@ const Home = () => {
   return (
 
     <div>
+
       <img className="banner" src={Banner}/>
 
-        <h3 className='text-introduccion'>SOMOS EXPERTOS EN ASESORIA FINANCIERA</h3>
-        
       <div className='contenedor-aliados'>
-        <h4 className='text-aliados'>NUESTROS ALIADOS FINANCIEROS</h4>
+        <h3 className='introduccion-titulo'>SOMOS EXPERTOS EN ASESORIA FINANCIERA</h3>
+        <p className='introduccion-text'>Somos <b><i>Consultores Financieros</i></b> especializados en mejorar tu vida créditicia. 
+        <br></br>Solicita tu préstamo en alguna de nuestras líneas de crédito y con alguno de nuestros <b>aliados financieros:</b></p> 
         <ul class="aliados">
           <li>
             <img className='imagenes-aliados' src={Avvillas}/>
